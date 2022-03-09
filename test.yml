@@ -8,6 +8,6 @@
     shell: echo "Hi! Tower is working! v2 My variable':' '{{ my_variable }}'"
 
   - name: Creates directory
-      file:
-        path: /tmp/MyTest
-        state: directory
+    file:
+      path: /tmp/MyTest
+      state: directory
