@@ -4,7 +4,7 @@
 
   tasks:
 
-  - name: Hello World! {{ my_variable }}
+  - name: Hello World! TEST BRANCH {{ my_variable }}
     shell: echo "Hi! Tower is working! v2 My variable':' '{{ my_variable }}'"
 
   - name: Creates directory
