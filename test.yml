@@ -6,6 +6,7 @@
 
   - name: Hello World! TEST BRANCH {{ my_variable }}
     shell: echo "Hi! Tower is working! v2 My variable':' '{{ my_variable }}'"
+    debug: msg="This is my debug message"
 
   - name: Creates directory
     file:
