@@ -15,4 +15,4 @@
     
     
   - name: Debug code that I added
-    debug: msg="Encryption Exit code '{{ my_variable }}'"
+    debug: msg="Encryption Exit code: {{ my_variable }}"
