@@ -11,3 +11,4 @@
     file:
       path: /tmp/MyTest
       state: directory
+    when: 0 == 0
