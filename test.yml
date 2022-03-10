@@ -11,3 +11,7 @@
     file:
       path: /tmp/MyTest
       state: directory
+      
+      
+  - name: Encription status...
+    debug: msg="I created this debug message '{{ my_variable }}'"
