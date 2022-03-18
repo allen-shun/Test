@@ -1,5 +1,5 @@
--name: test vmware
-- hosts: all
+- name: test vmware
+  hosts: all
 
   vars:
     vmware:
