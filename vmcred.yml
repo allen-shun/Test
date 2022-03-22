@@ -9,4 +9,4 @@
 
   tasks:
     - debug:
-        var: vmware
+        var: vmware.password
